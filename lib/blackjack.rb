@@ -31,6 +31,7 @@ def initial_round
 end
 
 def hit?(card_total)
+<<<<<<< HEAD
   prompt_user 
    type_command = get_user_input
 if type_command == "h"
@@ -40,6 +41,10 @@ elsif type_command == "s"
 else 
   invalid_command
 end    
+=======
+  type_command = prompt_user 
+  get_user_input
+>>>>>>> ae99306b8bf71927e028bf6c04844e51ec401cd6
 end
 
 def invalid_command
